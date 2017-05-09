@@ -1,0 +1,102 @@
+/*
+ * Author:   A. Luedecke
+ * Purpose:  Site styles for internal pages
+ * Created:  Okt/21/2015
+ */
+body {
+    width:740px;
+}
+
+img {
+    border-style:none;
+}
+
+.content {
+    background-color:White;
+    width:740px;
+}
+
+.contenthead {
+    color:#101010;
+    text-align:center;
+    width:740px;
+}
+
+.headline {
+    background-color:Black;
+    color:#A0A0A0;
+    font-family:Tahoma;
+    font-size:small;
+    text-align:right;
+}
+
+.header {
+    background-color:#F0F0F0;
+    border-width:medium;
+    border-color:Gray;
+    border-style:double;
+}
+
+.link {
+    color:#F0F0F0;
+    font-family:Tahoma;
+    font-size:small;
+}
+
+.menu {
+    font-family:Tahoma;
+    font-size:smaller;
+    text-align:center;
+    width:400px;
+}
+
+.ph {
+    color:White;
+}
+
+.photo {
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+
+
+.post {
+    position:absolute;
+    right:17px;
+    top:815px;
+}
+
+.show2015 {
+    width:740px;
+    height:1130px; /*1670*/
+    border-style:none;
+}
+
+.show2016 {
+    width:740px;
+    height:1375px;
+    border-style:none;
+}
+
+.show2017 {
+    width:740px;
+    height:1670;
+    border-style:none;
+}
+
+.slide {
+    margin:5px;
+    padding:0px;
+    width:101%;
+    height:635px;
+    background-color:#F0F0F0;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+
+.text {
+    color:Black;
+    font-family:Calibri;
+}

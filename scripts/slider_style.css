@@ -1,0 +1,22 @@
+/*
+ * Author:   A. Luedecke
+ * Purpose:  slider  style sheet
+ * Created:  Sep/14/2016
+ */
+
+.album {
+    width:730px;
+    height:560px;
+    border-style:none;
+}
+
+.slide {
+    width:690px;
+    height:600px;
+    border-style:none;
+}
+
+.text {
+    color:Black;
+    font-family:Calibri;
+}

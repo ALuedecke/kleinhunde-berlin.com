@@ -1,0 +1,24 @@
+/*
+ * Author:   A. Luedecke
+ * Purpose:  slider style sheet for mobile devices
+ * Created:  Sep/14/2016
+ */
+
+.album {
+    width:730px;
+    height:2500px;
+    border-style:none;
+}
+
+.slide {
+    margin:0px;
+    padding:0px;
+    width:102%;
+    height:2500px;
+    background-color:#F0F0F0;
+}
+
+.text {
+    color:Black;
+    font-family:Calibri;
+}

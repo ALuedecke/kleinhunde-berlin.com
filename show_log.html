@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="robots" content="show_log, follow" />
+    <meta name="description"
+          content="VK e.V. - Landesgruppe Berlin - Besucher" />
+    <meta name="keywords"
+          content="besucher, besucherliste, visitors,
+                  ,ipadressen, ipaddresses, ip" />
+    <title>
+       Visitors
+    </title>
+    <link rel="icon" href="res/logo_vk.JPG" type="image/x-icon" />
+    <script src="scripts/site_func.js" type="text/javascript"></script>
+  </head>
+  <body style="background:#F0F0FF; font-family:Calibri;">
+    <table style="width:100%">
+      <tr>
+        <td style="width:10%"></td>
+        <td style="width:80%">
+            <h2>Besucherliste - www.kleinhunde-berlin.com</h2>
+        </td>
+        <td style="width:10%"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <iframe style="border-style:solid; border-width:1px; width:100%;"
+                  src="counter/save_ip.php?text=showlog"
+                  id="ifr"
+                  scrolling="auto"
+                  frameborder="0"
+                  onload="resizeIframe(this, 0)">
+            iframe is not supported by your browser ...
+          </iframe><br />
+        </td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

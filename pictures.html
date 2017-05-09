@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="bilder, fotos, photos, follow" />
+    <meta name="description"
+          content="VK e.V. - Landesgruppe Berlin - Ausstellungen" />
+    <meta name="keywords"
+          content="hundeausstellung, ausstellung, shows" />
+    <title>
+       Ausstellungen
+    </title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="scripts/site_styles.css" type="text/css" />
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.min.js"></script>
+      <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        window.history.forward();
+        function noBack() {
+            window.history.forward();
+        }
+    </script>
+  </head>
+  <body onload="setIframeSrc('ifi', 'brunch_2017.html'); noBack();" onunload="">
+    <ul class="nav nav-tabs">
+      <li class="active">
+        <a data-toggle="tab" 
+           href="#br2016"
+           onclick="setIframeSrc('ifi', 'brunch_2017.html')">
+          Brunch 02/2017
+        </a>
+      </li>
+      <li>
+        <a data-toggle="tab" 
+           href="#2016"
+           onclick="setIframeSrc('ifi', 'gallery_2016.html')">
+          Ausstellung 2016
+        </a>
+      </li>
+      <li>
+        <a data-toggle="tab"
+           href="#2015"
+           onclick="setIframeSrc('ifi', 'gallery_2015.html')">
+          Ausstellung 2015
+        </a>
+      </li>
+    </ul>
+    <iframe class="slide"
+            name="if_image"
+            id="ifi"
+            scrolling="no"
+            frameborder="0">
+      iframe is not supported by your browser ...
+    </iframe>
+    <div class="tab-content">
+      <div id="br2017" class="tab-pane fade in active"></div>
+      <div id="2016" class="tab-pane fade in"></div>
+      <div id="2015" class="tab-pane fade in"></div>
+    </div>
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/site_func_jq.js"></script>
+  </body>
+</html>

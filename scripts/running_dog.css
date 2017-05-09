@@ -1,0 +1,41 @@
+/*
+ * Author:   A. Luedecke
+ * Purpose:  runnig_dog style sheet
+ *           moves animated gif
+ * Created:  Apr/19/2017
+ */
+
+@keyframes doggy {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(100%, 0); }
+}
+
+@-moz-keyframes doggy {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(100%, 0); }
+}
+
+@-webkit-keyframes doggy {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(100%, 0); }
+}
+
+.doggy {
+    width: 700px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #F0FFF0;
+    border-color: #E0FFE0;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.doggy span {
+    display: inline-block;
+    padding-right: 100%;
+    animation: doggy 8s linear infinite;
+    -moz-animation: doggy 8s linear infinite;
+    -webkit-animation: doggy 8s linear infinite;
+}

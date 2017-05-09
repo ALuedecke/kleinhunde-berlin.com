@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="results, follow" />
+    <meta name="description"
+          content="VK e.V. - Landesgruppe Berlin - Ausstellungsergebnisse" />
+    <meta name="keywords"
+          content="hundeausstellung, ausstellung
+                  ,austellungsergebnisse, shows, ergebnisse" />
+    <title>
+       Austellungsergebnisse
+    </title>
+    <link rel="icon" href="res/logo_vk.JPG" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="scripts/index_desktop.css" type="text/css" />
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="scripts/index_mobile.css" type="text/css" />
+    <link rel="stylesheet" media="only screen and (orientation: portrait)" href="scripts/index_mobile.css" type="text/css" />
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.min.js"></script>
+      <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body onload="setResFrameSrc('https://macshot.de/vk-bb3/ergebnisse.php?d=25.09.16')">
+    <div style="text-align:center">
+      <h3>Ausstellungsergebnisse</h3>
+      <table style="width:100%">
+        <tr>
+          <td style="width:10%"></td>
+          <td style="border-style:solid; border-width:1px; background-color:#E0E0E0; width:80%;">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a data-toggle="tab" 
+                   href="#20160925"
+                   onclick="setIframeSrc('ifr', 'https://macshot.de/vk-bb3/ergebnisse.php?d=25.09.16')">
+                  25.09.2016
+                </a>
+              </li>
+              <li>
+                <a data-toggle="tab"
+                   href="#20160924"
+                   onclick="setIframeSrc('ifr', 'https://macshot.de/vk-bb2/ergebnisse.php?d=24.09.16')">
+                  24.09.2016
+                </a>
+              </li>
+              <li>
+                <a data-toggle="tab" 
+                   href="#20150927"
+                   onclick="setIframeSrc('ifr', 'https://macshot.de/vk-bb3/ergebnisse.php?d=27.09.15')">
+                  27.09.2015
+                </a>
+              </li>
+              <li>
+                <a data-toggle="tab"
+                   href="#20150926"
+                   onclick="setIframeSrc('ifr', 'https://macshot.de/vk-bb2/ergebnisse.php?d=26.09.15')">
+                  26.09.2015
+                </a>
+              </li>
+            </ul>
+            <iframe class="result"
+                    name="if_result"
+                    id="ifr"
+                    scrolling="auto"
+                    frameborder="0"
+                    onload="resizeIframe(this, 1)">
+              iframe is not supported by your browser ...
+            </iframe>
+          </td>
+          <td style="width:10%"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="tab-content">
+      <div id="20160925" class="tab-pane fade in active"></div>
+      <div id="20160924" class="tab-pane fade in"></div>
+      <div id="20150927" class="tab-pane fade in"></div>
+      <div id="20150926" class="tab-pane fade in"></div>
+    </div>
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/site_func_jq.js"></script>
+  </body>
+</html>

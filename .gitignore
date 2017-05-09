@@ -1,0 +1,10 @@
+# Pathes
+[Dd]ata/
+[Ee]ngine/
+[Pp]ictures/
+[Tt]humbs/
+
+# Others
+~$*
+*~
+*#
