@@ -4,6 +4,10 @@
 [Pp]ictures/
 [Tt]humbs/
 
+#log
+index.txt
+visitor_ip.log
+
 # Others
 ~$*
 *~
