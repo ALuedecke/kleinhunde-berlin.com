@@ -4,6 +4,7 @@
 [Ee]ngine/
 [Pp]ictures/
 [Tt]humbs/
+.vscode
 
 #log
 index.txt
