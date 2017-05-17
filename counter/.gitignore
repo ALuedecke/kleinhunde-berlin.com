@@ -1,6 +1,5 @@
-#log
-*.txt
-*.log
+# Pathes
+[Ll]ogs/
 
 # Others
 ~$*
