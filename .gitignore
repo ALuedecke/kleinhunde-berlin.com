@@ -7,8 +7,8 @@
 .vscode/
 
 #log
-index.txt
-visitor_ip.log
+counter/logs/index.txt
+counter/logs/visitor_ip.log
 
 # Others
 ~$*
