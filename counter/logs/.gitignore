@@ -1,6 +1,6 @@
 #log
-index.txt
-visitor_ip.log
+*.txt
+*.log
 
 # Others
 ~$*
