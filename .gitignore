@@ -5,10 +5,6 @@
 [Tt]humbs/
 .vscode/
 
-#log
-counter/logs/index.txt
-counter/logs/visitor_ip.log
-
 # Others
 ~$*
 *~
