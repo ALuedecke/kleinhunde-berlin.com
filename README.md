@@ -10,3 +10,4 @@ Hinweise:
 Aktuelle Entwicklung:
 - Einbinden des WeTest-Zertifikates
 - Asynchrones Laden der externen Java Script Files
+- Neuer Link auf die VK-Rasseflyer

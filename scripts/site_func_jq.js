@@ -13,6 +13,9 @@
  *                         - display dog show results A. Luedecke
  * --------------------------------------------------------------
  * Update:   Oct/07/2016 - function setObjectClass()  A. Luedecke
+ * --------------------------------------------------------------
+ * Update:   Jul/24/2017 - function loadIframeFromUrl()
+ *                         - load vkbreedflyer.html   A. Luedecke
  */
 var curr_imgID = 'imgHOME';
 var curr_page = 'HOME';
@@ -96,6 +99,10 @@ function loadIframeFromUrl() {
             case 'puppies.html':
                 setCurrentPage('PUP', 'imgPUP');
                 setCurrentImage('imgPUP', 'PUP', 'res/btn_pup');
+                break;
+            case 'vkbreedflyer.html':
+                setCurrentPage('VKF', 'imgVKF');
+                setCurrentImage('imgVKF', 'VKF', 'res/btn_vkflyer');
                 break;
             case 'shows.html':
                 setCurrentPage('AUS', 'imgAUS');
