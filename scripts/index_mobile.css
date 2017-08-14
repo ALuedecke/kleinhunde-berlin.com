@@ -9,17 +9,17 @@ html {
 
 body 
 {
-    /* Spring */
+    /* Spring
     background-image:-linear-gradient(#E0FFC0 0%, #808050 100%);
     background-image:-moz-linear-gradient(top, #E0FFC0, #808050);
     background-image:-o-linear-gradient(#E0FFC0 0%, #808050 100%);
     background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#E0FFC0), to(#808050));
-    /* Summer 
+    */
+    /* Summer */
     background-image:-linear-gradient(#FFFFC0 0%, #808050 100%);
     background-image:-moz-linear-gradient(top, #FFFFC0, #808050);
     background-image:-o-linear-gradient(#FFFFC0 0%, #808050 100%);
     background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#FFFFC0), to(#808050));
-    */
     /* Fall
     background-image:-linear-gradient(#FFE0C0 0%, #808050 100%);
     background-image:-moz-linear-gradient(top, #FFE0C0, #808050);
