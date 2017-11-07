@@ -16,6 +16,9 @@
  * --------------------------------------------------------------
  * Update:   Jul/24/2017 - function loadIframeFromUrl()
  *                         - load vkbreedflyer.html   A. Luedecke
+ * --------------------------------------------------------------
+ * Update:   Nov/07/2017 - function loadResFrameFromUrl()
+ *                         - dog show results 2017    A. Luedecke
  */
 var curr_imgID = 'imgHOME';
 var curr_page = 'HOME';
@@ -141,6 +144,12 @@ function loadResFrameFromUrl() {
                 break;
             case '20160925':
                 url = 'https://macshot.de/vk-bb3/ergebnisse.php?d=25.09.16';
+                break;
+            case '20170916':
+                url = 'https://macshot.de/vk-bb2/ergebnisse.php?d=16.09.17';
+                break;
+            case '20170917':
+                url = 'https://macshot.de/vk-bb3/ergebnisse.php?d=17.09.17';
                 break;
             default:
                 url = '';
