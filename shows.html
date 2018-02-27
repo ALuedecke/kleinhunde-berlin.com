@@ -25,10 +25,17 @@
         }
     </script>
   </head>
-  <body onload="setIframeSrc('ifs', 'show_2017.html'); noBack();" onunload="">
+  <body onload="setIframeSrc('ifs', 'show_2018.html'); noBack();" onunload="">
     <ul class="nav nav-tabs">
       <li class="active">
         <a data-toggle="tab" 
+           href="#2018"
+           onclick="setIframeSrc('ifs', 'show_2018.html');">
+          Aktuell
+        </a>
+      </li>
+      <li>
+        <a data-toggle="tab"
            href="#2017"
            onclick="setIframeSrc('ifs', 'show_2017.html');">
           Ausstellung 2017
@@ -50,7 +57,7 @@
       </li>
     </ul>
     <iframe class="show2016"
-            src="show_2017.html"
+            src="show_2018.html"
             name="if_show"
             id="ifs"
             scrolling="no"
@@ -58,7 +65,8 @@
       iframe is not supported by your browser ...
     </iframe>
     <div class="tab-content">
-      <div id="2017" class="tab-pane fade in active"></div>
+      <div id="2018" class="tab-pane fade in active"></div>
+      <div id="2017" class="tab-pane fade in"></div>
       <div id="2016" class="tab-pane fade in"></div>
       <div id="2015" class="tab-pane fade in"></div>
     </div>
