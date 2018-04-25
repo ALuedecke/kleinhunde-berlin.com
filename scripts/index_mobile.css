@@ -9,12 +9,11 @@ html {
 
 body 
 {
-    /* Spring
+    /* Spring */
     background-image:-linear-gradient(#E0FFC0 0%, #808050 100%);
     background-image:-moz-linear-gradient(top, #E0FFC0, #808050);
     background-image:-o-linear-gradient(#E0FFC0 0%, #808050 100%);
     background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#E0FFC0), to(#808050));
-    */
     /* Summer
     background-image:-linear-gradient(#FFFFC0 0%, #808050 100%);
     background-image:-moz-linear-gradient(top, #FFFFC0, #808050);
@@ -27,11 +26,12 @@ body
     background-image:-o-linear-gradient(#FFE0C0 0%, #808050 100%);
     background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#FFE0C0), to(#808050));
     */
-    /* Winter */
+    /* Winter
     background-image:-linear-gradient(#D0F0FF 0%, #506080 100%);
     background-image:-moz-linear-gradient(top, #D0F0FF, #506080);
     background-image:-o-linear-gradient(#D0F0FF 0%, #506080 100%);
     background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#D0F0FF), to(#506080));
+    */
 }
 
 iframe {
