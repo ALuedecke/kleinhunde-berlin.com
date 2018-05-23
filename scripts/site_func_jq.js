@@ -49,9 +49,11 @@ var isMobile = {
 $(document).ready(function() {
     $('#tbl_menu td').attr('class', 'menu');
     $('#tbl_menu td a img').attr('class', 'photo');
+    /*
     $('#img_log').on('click', function() {
         window.open('show_log.html', '_blank');
     });
+    */
     $('#img_fun').on('click', function() {
         window.open(
             'res/beach_fun.gif'
