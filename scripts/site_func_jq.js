@@ -19,6 +19,8 @@
  * --------------------------------------------------------------
  * Update:   Nov/07/2017 - function loadResFrameFromUrl()
  *                         - dog show results 2017    A. Luedecke
+ * Update:   Jun/04/2018 - function loadResFrameFromUrl()
+ *                         - dog show results 2018    A. Luedecke
  */
 var curr_imgID = 'imgHOME';
 var curr_page = 'HOME';
@@ -152,6 +154,12 @@ function loadResFrameFromUrl() {
                 break;
             case '20170917':
                 url = 'https://macshot.de/vk-bb3/ergebnisse.php?d=17.09.17';
+                break;
+            case '20180526':
+                url = 'https://macshot.de/vk-bb2/ergebnisse.php?d=26.05.18';
+                break;
+            case '20180527':
+                url = 'https://macshot.de/vk-bb3/ergebnisse.php?d=27.05.18';
                 break;
             default:
                 url = '';
